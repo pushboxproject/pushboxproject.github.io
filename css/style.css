@@ -485,7 +485,7 @@ main.hero .container{
 section{
     padding:4rem 0;
 }
-section.top-products{
+section#top-products{
     /* background:var(--primary); */
     background: #f2937e;
 }
@@ -507,7 +507,7 @@ section.top-products{
     position:absolute;
     bottom:-40px;
 }
-section.top-products .food-slider .food-card{
+section#top-products .food-slider .food-card{
     background:var(--heaven);
     padding:1.5rem 0;
     border-radius: 4px;
@@ -516,7 +516,7 @@ section.top-products .food-slider .food-card{
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-section.top-products .food-slider .food-card .product-image img{
+section#top-products .food-slider .food-card .product-image img{
     width:80%;
     height:200px;
     object-fit:contain;
@@ -527,7 +527,7 @@ hr{
     opacity: 0.8;
     margin:1rem 0;
 }
-section.top-products .food-slider .food-card h2{
+section#top-products .food-slider .food-card h2{
     font-family:"Raleway-bold";
     font-size:1.3rem;
     margin-bottom:0.25rem;
@@ -535,18 +535,18 @@ section.top-products .food-slider .food-card h2{
 .text-center{
     text-align: center;
 }
-section.top-products .food-slider .food-card .stars{
+section#top-products .food-slider .food-card .stars{
     margin-bottom:0.5rem;
 }
-section.top-products .food-slider .food-card .stars img{
+section#top-products .food-slider .food-card .stars img{
     margin-right:0.25rem;
 }
-section.top-products .food-slider .food-card .price{
+section#top-products .food-slider .food-card .price{
     font-family:"Raleway-medium";
     color:var(--danger);
     margin-bottom: 1rem;
 }
-section.top-products .food-slider .food-card button{
+section#top-products .food-slider .food-card button{
     font-family:"Raleway-medium";
     color:var(--secondary);
     background:var(--heaven);
@@ -568,7 +568,7 @@ section.top-products .food-slider .food-card button{
     -ms-transition:all .3s ease;
     -o-transition:all .3s ease;
 }
-section.top-products .food-slider .food-card button:hover{
+section#top-products .food-slider .food-card button:hover{
     /* background:var(--primary); */
     background: #f2937e;
     color:var(--heaven);
@@ -587,7 +587,7 @@ section.top-products .food-slider .food-card button:hover{
 .slick-list{
     margin:0 -27px;
 }
-.top-products .slider-btn{
+#top-products .slider-btn{
     width: 30px;
     height:30px;
     border: none;
@@ -614,10 +614,10 @@ section.top-products .food-slider .food-card button:hover{
     right:-3rem;
     z-index: 1;
 }
-.top-products .slider{
+#top-products .slider{
     position: relative;
 }
-.top-products .btn-wrapper{
+#top-products .btn-wrapper{
     margin-top:2rem;
 }
 .slick-track{
@@ -625,16 +625,16 @@ section.top-products .food-slider .food-card button:hover{
 }
 
 /* LAYANAN KAMI */
-section.our-services{
+section#our-services{
     background:var(--light);
     position:relative;
     z-index:0;
 }
-section.our-services .card-wrapper{
+section#our-services .card-wrapper{
     margin-right:-2rem;
     margin-top:8rem;
 }
-section.our-services .service-card{
+section#our-services .service-card{
     /* background:var(--heaven); */
     background: #f2937e;
     text-align: center;
@@ -648,7 +648,7 @@ section.our-services .service-card{
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-section.our-services .service-card .icons{
+section#our-services .service-card .icons{
     position: absolute;
     top:-45px;
     left:50%;
@@ -658,12 +658,12 @@ section.our-services .service-card .icons{
     -ms-transform:translateX(-50%);
     -o-transform:translateX(-50%);
 } 
-section.our-services .service-card h2{
+section#our-services .service-card h2{
     font-family: "Raleway-bold";
     font-size: 1.3rem;
     margin-bottom:1rem;
 }
-section.our-services .service-card p{
+section#our-services .service-card p{
     line-height: 1.6;
     margin-bottom:1rem;
 }
@@ -762,10 +762,10 @@ footer.copyright a{
 
 @media (max-width:768px){
 
-    section.our-services .card-wrapper{
+    section#our-services .card-wrapper{
         flex-direction:column;
     }
-    section.our-services .card-wrapper .service-card{
+    section#our-services .card-wrapper .service-card{
         margin-bottom:6rem;
     }
     footer .container{
