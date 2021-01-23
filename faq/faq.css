@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(115deg,  #ffffff 10%,#f2937E 90%);
+}
+.container{
+  max-width: 800px;
+  background: #fff;
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.container .text-heading{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  background: -webkit-linear-gradient(right, #f2937E, #9f01ea, #f2937E, #9f01ea);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .box{
+  padding: 30px 0 0 0;
+}
+
+@media (max-width: 700px) {
+  .container .text{
+    font-size: 30px;
+  }
+  .container .box{
+    padding: 10px 0 0 0;
+  }
+  
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.faqs{
+   padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   background: #f6f6f6;
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 14px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+details summary{
+   outline: none;
+}
+
+.btn{
+  padding: 0.50rem 0.75rem;
+  border-radius: 4px;
+  border: none;
+  line-height: 0.8;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  margin-top: 20px;
+  font-family: "Open Sans",sans-serif;
+}
+
+.btn-secondary{
+  background: #f2937E;
+  color: white;
+}
+
+.btn-secondary:hover{
+  background: #f8b798;
+  color: #f2937E;
+  border: 1px solid;
+}

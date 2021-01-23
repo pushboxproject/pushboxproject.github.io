@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushbox</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="file:///E:/jquery.js"></script>
+    <!-- bootsraph -->
+
+
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <nav>
+        <label class="logo"><img src="./icons/pushbox_logo.png" alt="" style="width: 120px; height: 55px;"></label>
+        <label for="btn" class="icon-bar">
+            <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+        <ul>
+  <li><a class="active" href="#">Home</a></li>
+  <li>
+    <label for="btn-1" class="show">Category<i class="fas fa-caret-down"></i></label>  
+    <a href="#">Category
+        <i class="fas fa-caret-down"></i>
+    </a>
+    <input type="checkbox" id="btn-1">
+            <ul>
+  <li><a href="#">Products</a></li>
+  <li><a href="#">Services</a></li>
+
+  </ul>
+  </li>
+  <li><a href="./About/about.html">About Us
+          </a>
+  <li><a href="./contact/contact.html">Contact</a></li>
+  <li><a href="./faq/faq.html">FAQ</a></li>
+  <li class="sign-up-sign-in">
+      <a href="./sign-in-up/sign.html">Sign In | Sign Up</a>
+  </li>
+  <li class="user">
+    <a href="#"><img src="./icons/user-icon.svg" alt=""></a>
+</li>
+  </ul>
+  </nav>
+      <section class="sec">
+        <div class="container">
+            <div id="kosong"></div>
+            <div id="search-box">
+                <form action="/search" id="search-form" method="get" target="_top">
+                <input id="search-text" name="q" placeholder="Search here..." type="text" />
+                <button id="search-button" type="submit"><span>Search</span></button>
+                </form>
+            </div>
+        </div>
+        
+      </section>
+        
+      
+  
+      
+    <!-- Hero -->
+
+    <main class="hero">
+        <div class="hero" data-arrows="true" data-autoplay="true">
+            <!--.hero-slide-->
+        
+            <div class="hero-slide">
+              <img alt="Mars Image" class="img-responsive cover" src="./images/slider_fish.png">
+            </div>
+            <!--.hero-slide-->
+        
+            <div class="hero-slide">
+              <img alt="Mars Image" class="img-responsive cover" src="./images/slider_snack.png">
+            </div>
+            <!--.hero-slide-->
+        
+            <div class="hero-slide">
+              <img alt="Mars Image" class="img-responsive cover" src="./images/slider_health.png">
+            </div>
+
+            <!--.hero-slide-->
+        
+            <div class="hero-slide">
+                <img alt="Mars Image" class="img-responsive cover" src="./images/slider_accessories.png">
+              </div>
+          </div>
+          <!--.hero-->
+    </main>
+
+    <!-- PRODUK TERATAS -->
+    <section class="top-products">
+        <div class="container">
+            <h1 class="section-heading">Top products</h1>
+            <div class="slider">
+                <button class="slider-btn prev-btn"><img src="./icons/pre.svg" alt=""></button>
+                <button class="slider-btn next-btn"><img src="./icons/next.svg" alt=""></button>
+                <div class="food-slider">
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex items-center justify-center">
+                            <img src="./images/snack.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Push Snack</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex items-center justify-center">
+                            <img src="./images/fish.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Push Fish 500gr</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Push fish 200gr -->
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex items-center justify-center">
+                            <img src="./images/fish.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Push Fish 200gr</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex items-center justify-center">
+                            <img src="./images/health.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Push Health</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-card magic-shadow-sm">
+                        <div class="product-image flex items-center justify-center">
+                            <img src="./images/accessories.png" alt="">
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="text-center">Push accessories</h2>
+                            <div class="stars flex justify-center items-center">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/start-filled.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                                <img src="./icons/star-grey.svg" alt="">
+                            </div>
+                            <div class="price text-center">
+                                $ 1.25
+                            </div>
+                            <div class="flex justify-center">
+                                <button>
+                                    <img src="./icons/cart-2.svg" alt="">
+                                    <span>Add to cart</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center btn-wrapper">
+                <button class="btn btn-secondary">View More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAYANAN KAMI -->
+    <section class="our-services">
+        <div class="container">
+            <h1 class="section-heading">Pushbox Services</h1>
+            <div class="card-wrapper flex">
+                <div class="service-card magic-shadow-sm">
+                    <img class="icons silver" src="./icons/usd1.png" alt="">
+                    <h2>Silver Box</h2>
+                    <p>3 hari perawatan + makanan + minuman + Snack</p>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+                <div class="service-card magic-shadow-sm">
+                    <img class="icons gold" src="./icons/usd2.png" alt="">
+                    <h2>Gold Box</h2>
+                    <p>5 hari perawatan + makanan + minuman + Snack + mainan</p>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+                <div class="service-card magic-shadow-sm">
+                    <img class="icons platinum" src="./icons/usd3.png" alt="">
+                    <h2>Platinum Box</h2>
+                    <p>7 hari perawatan+ makanan + minuman + Snack + mainan + exlusive room</p>
+                    <button class="btn btn-secondary">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="box">
+                <h3>About us</h3>
+                <p>Pet Shop berbasis web yang akan 
+                    memudahkan para pemilik hewan 
+                    peliharaan dalam menitipkan hewan 
+                    peliharaannya</p>
+                <button class="btn btn-secondary">Read More</button>
+            </div>
+            <div class="box">
+                <h3>Quik Links</h3>
+                <ul>
+                    <li>
+                        <a href="./About/about.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="./contact/contact.html">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="./faq/faq.html">FAQ</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/codersgyan">
+                                <img src="./icons/facebook.svg" alt="">
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/CoderGyan">
+                                <img src="./icons/twitter.svg" alt="">
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/codersgyan/">
+                                <img src="./icons/instagram.svg" alt="">
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- COPYRIGHT -->
+    <footer class="copyright">
+        <div>
+            Copyright © 2020
+        </div>
+    </footer>
+
+
+    <!-- js slick -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+   
+    
+</body>
+
+
+</html>
